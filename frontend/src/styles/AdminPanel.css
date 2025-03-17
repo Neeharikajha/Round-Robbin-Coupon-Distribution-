@@ -1,0 +1,38 @@
+.admin-container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .coupon-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .coupon-table th,
+  .coupon-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .coupon-table th {
+    background-color: #333;
+    color: white;
+  }
+  
+  .coupon-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .coupon-table tr.claimed {
+    background-color: #ffdddd;
+  }
+  
+  .loading, .error, .no-coupons {
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+  }
+  

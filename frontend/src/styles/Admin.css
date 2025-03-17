@@ -1,0 +1,88 @@
+/* Admin Container */
+.admin-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light Gray Background */
+    min-height: 100vh;
+  }
+  
+  /* Admin Login */
+  .admin-login {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .admin-login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .admin-login input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .admin-login button {
+    padding: 10px 20px;
+    background-color: #2c3e50; /* Dark Blue */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .admin-login button:hover {
+    background-color: #1c2b3a; /* Slightly Darker Blue */
+  }
+  
+  /* Coupon Management */
+  .coupon-admin {
+    margin-top: 20px;
+  }
+  
+  .coupon-admin h2 {
+    color: black; /* "Manage Coupons" Title in Black */
+  }
+  
+  .coupon-item {
+    background-color: #3a3f47; /* Soft Dark Gray */
+    color: white; /* White Text on All Cards */
+    padding: 12px;
+    margin: 8px auto;
+    width: 280px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .coupon-item.available {
+    background-color: #4caf50; /* Green */
+    color: white; /* White Text */
+  }
+  
+  .coupon-item.claimed {
+    background-color: #e74c3c; /* Red */
+    color: white; /* White Text */
+  }
+  
+  .add-coupon {
+    margin-top: 10px;
+    padding: 10px 18px;
+    background-color: #007acc; /* Soft Blue */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .add-coupon:hover {
+    background-color: #005f99; /* Slightly Darker Blue */
+  }
+  

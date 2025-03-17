@@ -1,0 +1,169 @@
+.user-container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .coupon-card {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    border-radius: 10px;
+    padding: 20px;
+    width: 320px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  p {
+    font-size: 14px;
+    color: white;
+  }
+  
+  .claim-btn {
+    background-color: #fff;
+    color: #ff577f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .claim-btn:hover {
+    background-color: #ff577f;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  .claimed-btn {
+    background-color: #bbb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: not-allowed;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Coupon List */
+  .coupon-list {
+    margin-top: 20px;
+  }
+  
+  .coupon-item {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px auto;
+    width: 250px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .coupon-item:hover {
+    background-color: #f7f7f7;
+    transform: scale(1.05);
+  }
+  
+  .coupon-item.available {
+    color: green;
+  }
+  
+  .coupon-item.claimed {
+    color: red;
+  }
+  
+  .coupon-item.expired {
+    color: gray;
+  }
+  
+  /* Last Claimed Coupon */
+  .last-coupon {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 20px auto;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .coupon-code {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff577f;
+  }
+  
+  /* Cooldown Timer */
+  .cooldown-timer {
+    font-size: 14px;
+    color: #444;
+    margin-top: 10px;
+  }
+  
+  /* Message Styling */
+  .message {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+
+/* Coupon List */
+.coupon-list {
+    margin-top: 20px;
+  }
+  
+  .coupon-item {
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    border: 1px solid #555; /* Slightly lighter border */
+    padding: 10px;
+    margin: 5px auto;
+    width: 250px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .coupon-item:hover {
+    background-color: #444; /* Slightly lighter on hover */
+    transform: scale(1.05);
+  }
+  
+  .coupon-item.available {
+    background-color: #1e7e34; /* Dark Green */
+  }
+  
+  .coupon-item.claimed {
+    background-color: #b22222; /* Dark Red */
+  }
+  
+  .coupon-item.expired {
+    background-color: #6c757d; /* Dark Gray */
+  }
+  
+  /* Last Claimed Coupon */
+  .last-coupon {
+    background-color: #222; /* Darker background */
+    padding: 10px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 20px auto;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .coupon-code {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffcc00; /* Yellow for contrast */
+  }
+  
